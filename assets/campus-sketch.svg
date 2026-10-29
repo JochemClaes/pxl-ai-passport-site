@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" fill="none">
+  <defs>
+    <pattern id="glazing" width="17" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 0H17V20" stroke="#f6f1e4" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <pattern id="roof" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <path d="M0 0H12" stroke="#ae9a64" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <g id="tree" stroke="#ae9a64" stroke-width="1.5">
+      <path d="M0 8V24M0 15L-7 9M0 11L7 5"/>
+      <path d="M-12 6C-23-1-11-18-3-15C8-27 21-12 15-5C27 7 11 18 2 13C-6 20-20 15-12 6Z" fill="#26352b" fill-opacity=".7"/>
+    </g>
+  </defs>
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <g stroke="#d7e6dd" stroke-width="2" opacity=".65">
+      <path d="M0 170C95 148 105 93 198 101S350 81 410 42"/>
+      <path d="M0 198C95 178 127 119 204 130S365 112 430 65"/>
+      <path d="M37 173L71 164M119 125L151 117M239 117L280 112M338 93L364 81"/>
+    </g>
+    <g stroke="#ae9a64" stroke-width="2" opacity=".65">
+      <path d="M510 12L551 194L561 370L650 530M546 8L584 187L598 359L689 522"/>
+      <path d="M12 489L398 405L514 415L715 473L986 399M22 516L398 431L511 441L712 501L998 426"/>
+      <path d="M53 109L129 172L153 182M48 118L122 182L148 193"/>
+      <path d="M375 283L524 240M217 365L347 334M620 373L862 417"/>
+      <path d="M562 349C593 296 633 321 628 366L664 456" stroke-width="9" opacity=".45"/>
+    </g>
+    <g stroke="#f6f1e4" stroke-width="2" fill="#151515" fill-opacity=".65">
+      <g id="left-tower">
+        <path d="M70 244L219 207L263 247L110 286Z" fill="url(#roof)"/>
+        <path d="M70 244V377L110 424L110 286M110 424L263 382V247M70 377L110 424"/>
+        <path d="M80 266L110 301L253 266M80 287L110 323L253 289M80 309L110 345L253 310M80 331L110 367L253 332M80 353L110 389L253 354" opacity=".55"/>
+        <path d="M133 296V404M157 290V397M181 283V391M205 277V384M229 271V378" opacity=".4"/>
+      </g>
+      <g id="low-wings">
+        <path d="M22 432L147 398L207 444L80 480ZM80 480V510L207 473V444M22 432V462L80 510"/>
+        <path d="M205 429L344 391L369 414L229 455ZM229 455V479L369 438V414M205 429V451L229 479"/>
+        <path d="M40 435L144 408M56 448L163 419M219 433L343 400M231 443L354 410" stroke="#ae9a64"/>
+      </g>
+      <g id="rear-block">
+        <path d="M245 142L444 100L491 148L288 194Z" fill="url(#roof)"/>
+        <path d="M245 142V197L288 239V194M288 239L491 193V148"/>
+        <path d="M294 204L482 161M294 219L482 177" opacity=".5"/>
+      </g>
+      <g id="glass-tower">
+        <path d="M388 105L434 95L453 113L406 124Z"/>
+        <path d="M388 105V260L406 282V124M406 282L453 269V113"/>
+        <path d="M389 126L406 145L453 134M389 147L406 166L453 156M389 169L406 188L453 177M389 191L406 210L453 199M389 213L406 232L453 221M389 235L406 254L453 243" opacity=".7"/>
+        <path d="M416 122V279M431 119V274M445 116V270" stroke="#ae9a64"/>
+      </g>
+      <g id="central-block">
+        <path d="M366 330L487 301L515 362L391 394Z" fill="url(#roof)"/>
+        <path d="M366 330V380L391 444V394M391 444L515 411V362"/>
+        <path d="M392 397L513 365V410L392 441Z" fill="url(#glazing)"/>
+        <path d="M388 336L475 315L493 354L407 377Z" stroke="#ae9a64"/>
+      </g>
+      <g id="upper-courtyard">
+        <path d="M620 111L785 77L852 142L682 183Z"/>
+        <path d="M655 119L777 94L818 135L693 165Z" stroke="#ae9a64"/>
+        <path d="M655 119V146L680 171M777 94V122L803 148" opacity=".55"/>
+        <path d="M620 111V158L682 226V183M682 226L852 183V142"/>
+        <path d="M693 187V218M719 181V212M745 175V205M771 169V198M797 163V191M823 157V185" opacity=".6"/>
+      </g>
+      <g id="large-courtyard">
+        <path d="M612 272L857 214L961 313L707 378Z" fill="url(#roof)"/>
+        <path d="M680 283L826 247L893 308L740 348Z" stroke="#ae9a64" stroke-width="3"/>
+        <path d="M680 283V319L706 343M826 247V282L866 316" opacity=".6"/>
+        <path d="M612 272V350L707 457V378M707 457L961 387V313"/>
+        <path d="M623 301L708 396L950 333M623 324L708 420L950 356M637 361L708 441L950 378" opacity=".6"/>
+        <path d="M730 373V449M765 365V439M800 356V430M835 347V420M870 338V411M905 329V401M940 320V391" opacity=".4"/>
+        <path d="M639 276L663 269L744 349L721 355Z" fill="url(#glazing)" stroke="#ae9a64"/>
+      </g>
+    </g>
+    <g opacity=".85">
+      <use href="#tree" x="48" y="229"/><use href="#tree" x="185" y="179"/>
+      <use href="#tree" x="310" y="258"/><use href="#tree" x="342" y="296"/>
+      <use href="#tree" x="294" y="363"/><use href="#tree" x="465" y="454"/>
+      <use href="#tree" x="530" y="296"/><use href="#tree" x="577" y="130"/>
+      <use href="#tree" x="597" y="218"/><use href="#tree" x="881" y="189"/>
+      <use href="#tree" x="785" y="303"/><use href="#tree" x="759" y="294"/>
+      <use href="#tree" x="802" y="139"/><use href="#tree" x="772" y="132"/>
+      <use href="#tree" x="850" y="468"/><use href="#tree" x="925" y="436"/>
+      <use href="#tree" x="367" y="466"/><use href="#tree" x="288" y="492"/>
+    </g>
+  </g>
+</svg>
